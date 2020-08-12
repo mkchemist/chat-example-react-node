@@ -1,0 +1,41 @@
+.message {
+    clear: both;
+    overflow: hidden;
+    .name {
+        float: left;
+        background-color: #f25555;
+        color: white;
+        padding: .2rem;
+        border-radius: 5px;
+        font-size: small;
+    }
+    .body{
+        background-color: white;
+        margin-top: .5rem;
+        padding:.5rem 1rem;
+        font-size: small;
+        color: #1119;
+
+    }
+}
+
+.message-reverse {
+    clear: both;
+    overflow: hidden;
+    .name {
+        background-color: #7f5ae6;
+        color: white;
+        padding: .2rem;
+        border-radius: 5px;
+        font-size: small;
+        float: right;
+    }
+    .body{
+        background-color: white;
+        margin-top: .5rem;
+        padding:.5rem 1rem;
+        font-size: small;
+        color: #1119;
+
+    }   
+}
